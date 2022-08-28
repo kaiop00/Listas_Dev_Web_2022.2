@@ -1,0 +1,109 @@
+body{
+    color:rgb(15, 20, 25);
+}
+.navegacao a{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+.conteiner:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+}
+.nome h4,.nometw{
+    color: rgb(15, 20, 25);
+}
+.nomeperfil h5,.date{
+    color:  rgb(83, 100, 113);
+}
+.biografia p{
+    color: rgb(15, 20, 25);
+}
+.cores span{
+    color:  rgb(15, 20, 25);
+    font-weight: bold;
+}
+.select {
+    list-style: none;  
+
+}
+
+.publi {
+    list-style: none;
+}
+
+.publi a {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.publi a:hover {
+    background-color:rgba(15, 25, 20, 0.1);
+    border-radius: 20px;
+}
+
+.listas > li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+
+.listas > li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.informacoes li a {
+    color: rgb(83, 100, 113);
+}
+
+.informacoes li a {
+    text-decoration: none;
+}
+
+.informcoes li a span:nth-child(1){
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.informacoes li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.acoeslinks a{
+    text-decoration: none;
+    color:  rgb(83, 100, 113);
+}
+.acoeslinks :last-child:hover{
+    background: rgba(29, 155, 240, 0.1);
+    color:rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    
+}
+.acoeslinks :first-child:hover{
+    background: rgba(29, 155, 240, 0.1);
+    color:rgba(29, 155, 240, 1);
+    border-radius: 5px;
+    
+}
+.Ret:hover{
+    background: rgba(0, 186, 124, 0.1);
+    color:rgba(0, 186, 124, 1);
+    border-radius: 5px;
+}
+
+.like:hover{
+    background: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+    border-radius: 5px;
+}
+.acoeslinks a:hover{
+    border-bottom: 1px solid black;
+}
+.text{
+    color:rgb(15, 20, 25);
+}
+.usuario:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+}
+
+
+
