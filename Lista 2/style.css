@@ -5,6 +5,10 @@ body{
     color: rgb(15, 20, 25);
     text-decoration: none;
 }
+.tzeet:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+}
 .conteiner:hover{
     background-color: rgba(15, 25, 20, 0.1);
     border-radius: 20px;
@@ -22,12 +26,13 @@ body{
     color:  rgb(15, 20, 25);
     font-weight: bold;
 }
+/* }
 .select {
     list-style: none;  
 
-}
+} */
 
-.publi {
+.publi,.select {
     list-style: none;
 }
 
