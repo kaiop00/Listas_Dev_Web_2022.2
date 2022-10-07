@@ -1,7 +1,7 @@
 function digitar(event) {
-    
+    console.log(event.target.value)
     let count = document.getElementById('ctd')
-    console.log(count.textContent.length)
+
     if (event.target.value.length <= 0 ) {
         document.getElementById('btEnviar').disabled = true;
         count.style.opacity = 0;
@@ -28,20 +28,9 @@ function digitar(event) {
     }
 }
 
-
-document.querySelector('#a').addEventListener("input", () => {
-    console.log("23")
-})
-
-
-
-
-
-
 function digitarModal(event) {
     let contador = document.getElementById('ctdModal')
-    console.log(contador.textContent)
-    
+
     if (event.target.value.length <= 0) {
 
         document.getElementById('btEnviarModal').disabled = true;
@@ -67,3 +56,4 @@ function digitarModal(event) {
         contador.classList.add('black');
     }
 }
+
